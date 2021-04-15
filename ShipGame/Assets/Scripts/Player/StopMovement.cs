@@ -12,6 +12,7 @@ namespace ShipGame.Player
             if (collisionInfo.collider.tag == "Enemy")
             {
                 movement.enabled = false;
+                FindObjectOfType<GameManager>().EndGame();
             }
             if (collisionInfo.collider.tag == "Bonus")
             {
