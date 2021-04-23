@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Stop
+  - World
+  - Cannon Ball
+  - Bonus
   layers:
   - Default
   - TransparentFX
