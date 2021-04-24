@@ -9,6 +9,8 @@ TagManager:
   - World
   - Cannon Ball
   - Bonus
+  - Land1
+  - Land2
   layers:
   - Default
   - TransparentFX

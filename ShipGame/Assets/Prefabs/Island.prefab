@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 9082434959999789726}
   - component: {fileID: 9082434959999789725}
   - component: {fileID: 9082434959999789724}
-  - component: {fileID: 9082434959999789723}
   - component: {fileID: -8030788383925059127}
   m_Layer: 0
   m_Name: Island
@@ -67,22 +66,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 9.295636
-  m_Height: 18.591272
+  m_Height: 36.93
   m_Direction: 1
   m_Center: {x: 3.4085407, y: 1.8053656, z: 0}
---- !u!65 &9082434959999789723
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9082434959999789727}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 14.085549, y: 5.9686394, z: 2.502763}
-  m_Center: {x: 3.9991841, y: 4.198811, z: -0.7513815}
 --- !u!114 &-8030788383925059127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,7 +92,6 @@ GameObject:
   - component: {fileID: 9082434961295672966}
   - component: {fileID: 9082434961295672963}
   - component: {fileID: 9082434961295672964}
-  - component: {fileID: 9082434961295672965}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -177,19 +162,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &9082434961295672965
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9082434961295672967}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &9082434960296765596
 PrefabInstance:
   m_ObjectHideFlags: 0
