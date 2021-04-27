@@ -8,9 +8,13 @@ namespace ShipGame
     {
         public float speed = 3.0F;
     public float rotateSpeed = 3.0F;
-
-    void Update()
-    {
+        Vector3 temp;
+        private void Start()
+        {
+            temp = this.transform.position;
+        }
+        void Update()
+    {            
         CharacterController controller = GetComponent<CharacterController>();
 
         

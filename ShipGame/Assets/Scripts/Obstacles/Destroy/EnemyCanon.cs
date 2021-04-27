@@ -22,8 +22,16 @@ namespace ShipGame
 
             if (Stop)
             {
-                CancelInvoke("SpawnObject1");
+                CancelInvoke("CanonFire");
+                
             }
+        }
+        private void Update()
+        {
+            if (!Stop)
+                if (!IsInvoking("CanonFire")){
+                    InvokeRepeating("CanonFire", Time1, Delay1);
+                }
         }
     }
 }
