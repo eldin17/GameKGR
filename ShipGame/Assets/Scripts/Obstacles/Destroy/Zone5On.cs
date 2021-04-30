@@ -29,6 +29,7 @@ namespace ShipGame
         {
             if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Cannon Ball")
             {
+                Destroy(this.gameObject);
                 follow1.enabled = true;
                 shooting1.Stop = false;
                 
@@ -38,12 +39,7 @@ namespace ShipGame
                 follow3.enabled = true;
                 shooting3.Stop = false;
 
-                Destroy(this.gameObject);
             }
-        }
-        private void Update()
-        {
-            transform.Rotate(0, 70 * Time.deltaTime, 0);
-        }
+        }         
     }
 }

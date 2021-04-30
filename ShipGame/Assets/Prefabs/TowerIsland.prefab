@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6178885850582760189}
   - component: {fileID: 6178885850582760188}
   - component: {fileID: -8297579922083666860}
+  - component: {fileID: -3382621018951109904}
   m_Layer: 0
   m_Name: TowerIsland
   m_TagString: Enemy
@@ -79,6 +80,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9169be1bb74fc1c4baea7ac44956c7b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3382621018951109904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6178885850582760190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6178885851766974850

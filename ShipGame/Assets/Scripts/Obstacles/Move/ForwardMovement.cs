@@ -8,7 +8,7 @@ namespace ShipGame.Obstacles.Move
 	{  
 	    private void Update()
 	    {
-			this.transform.position += new Vector3(0, 0, 5) * 10 * Time.deltaTime;
+			this.transform.position += new Vector3(0, 0, -7) * 10 * Time.deltaTime;
 		}
 	}
 }

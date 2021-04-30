@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5458034688402856586}
   - component: {fileID: -8137501781892348633}
   - component: {fileID: -9187607896390176307}
+  - component: {fileID: 8660605109206143578}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Enemy
@@ -124,5 +125,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9169be1bb74fc1c4baea7ac44956c7b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8660605109206143578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7905123582873449768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

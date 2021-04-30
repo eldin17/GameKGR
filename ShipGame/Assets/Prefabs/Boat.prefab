@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1478367378822293404}
   - component: {fileID: 1478367378822293405}
   - component: {fileID: -7110369048075610752}
+  - component: {fileID: -8611385117031156544}
   m_Layer: 0
   m_Name: Boat
   m_TagString: Bonus
@@ -84,6 +85,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9169be1bb74fc1c4baea7ac44956c7b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8611385117031156544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478367378822293407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1478367377254667320

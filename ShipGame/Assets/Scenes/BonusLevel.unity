@@ -165,7 +165,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 198696152}
-  - component: {fileID: 198696154}
   - component: {fileID: 198696153}
   m_Layer: 0
   m_Name: SpawnPoint4
@@ -220,18 +219,6 @@ MonoBehaviour:
   stopSpawning5: 0
   spawnTime5: 21
   spawnDelay5: 25
---- !u!114 &198696154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198696151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &274764464
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +458,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422177485}
-  - component: {fileID: 422177487}
   - component: {fileID: 422177486}
   m_Layer: 0
   m_Name: Bonus
@@ -510,18 +496,6 @@ MonoBehaviour:
   stopSpawning1: 0
   spawnTime1: 21
   spawnDelay1: 50
---- !u!114 &422177487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422177484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,7 +698,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 815770349}
-  - component: {fileID: 815770351}
   - component: {fileID: 815770350}
   m_Layer: 0
   m_Name: SpawnPoint3
@@ -779,18 +752,6 @@ MonoBehaviour:
   stopSpawning5: 1
   spawnTime5: 20
   spawnDelay5: 25
---- !u!114 &815770351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 815770348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,7 +844,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1089187146}
-  - component: {fileID: 1089187148}
   - component: {fileID: 1089187147}
   m_Layer: 0
   m_Name: SpawnPoint2
@@ -938,18 +898,6 @@ MonoBehaviour:
   stopSpawning5: 0
   spawnTime5: 23
   spawnDelay5: 25
---- !u!114 &1089187148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089187145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1203567614
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,7 +907,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203567615}
-  - component: {fileID: 1203567617}
   - component: {fileID: 1203567616}
   m_Layer: 0
   m_Name: SpawnPoint7
@@ -1014,18 +961,6 @@ MonoBehaviour:
   stopSpawning5: 1
   spawnTime5: 8
   spawnDelay5: 25
---- !u!114 &1203567617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203567614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1206950700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,7 +1041,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1376537734}
-  - component: {fileID: 1376537736}
   - component: {fileID: 1376537735}
   m_Layer: 0
   m_Name: SpawnPoint6
@@ -1161,18 +1095,6 @@ MonoBehaviour:
   stopSpawning5: 0
   spawnTime5: 43
   spawnDelay5: 50
---- !u!114 &1376537736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376537733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1382438958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,7 +1104,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1382438959}
-  - component: {fileID: 1382438961}
   - component: {fileID: 1382438960}
   m_Layer: 0
   m_Name: SpawnPoint8
@@ -1237,18 +1158,6 @@ MonoBehaviour:
   stopSpawning5: 0
   spawnTime5: 13
   spawnDelay5: 25
---- !u!114 &1382438961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1382438958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1429148097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,7 +1211,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1468444153}
-  - component: {fileID: 1468444155}
   - component: {fileID: 1468444154}
   m_Layer: 0
   m_Name: SpawnPoint5
@@ -1357,18 +1265,6 @@ MonoBehaviour:
   stopSpawning5: 1
   spawnTime5: 10
   spawnDelay5: 25
---- !u!114 &1468444155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468444152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1485469825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1518,7 +1414,6 @@ GameObject:
   - component: {fileID: 1768099507}
   - component: {fileID: 1768099506}
   - component: {fileID: 1768099505}
-  - component: {fileID: 1768099508}
   m_Layer: 0
   m_Name: Sea
   m_TagString: Untagged
@@ -1604,18 +1499,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768099503}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1768099508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1768099503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1772904701
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,7 +1583,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1886699366}
-  - component: {fileID: 1886699368}
   - component: {fileID: 1886699367}
   m_Layer: 0
   m_Name: SpawnPoint9
@@ -1755,18 +1637,6 @@ MonoBehaviour:
   stopSpawning5: 0
   spawnTime5: 9
   spawnDelay5: 25
---- !u!114 &1886699368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886699365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2125002944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,7 +1646,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2125002945}
-  - component: {fileID: 2125002947}
   - component: {fileID: 2125002946}
   m_Layer: 0
   m_Name: SpawnPoint1
@@ -1831,15 +1700,3 @@ MonoBehaviour:
   stopSpawning5: 0
   spawnTime5: 8
   spawnDelay5: 25
---- !u!114 &2125002947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125002944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

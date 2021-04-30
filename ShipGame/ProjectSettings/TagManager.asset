@@ -12,6 +12,9 @@ TagManager:
   - Land1
   - Land2
   - Player2
+  - Mines
+  - EnemyCannon
+  - Health
   layers:
   - Default
   - TransparentFX

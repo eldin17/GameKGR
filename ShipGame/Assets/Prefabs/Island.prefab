@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9082434959999789725}
   - component: {fileID: 9082434959999789724}
   - component: {fileID: -8030788383925059127}
+  - component: {fileID: 3684911651110183203}
   m_Layer: 0
   m_Name: Island
   m_TagString: Enemy
@@ -79,6 +80,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9169be1bb74fc1c4baea7ac44956c7b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3684911651110183203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9082434959999789727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe66d4c66a95cf4db83b768815e982f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &9082434961295672967

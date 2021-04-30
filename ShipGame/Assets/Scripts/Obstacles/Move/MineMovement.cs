@@ -16,7 +16,11 @@ namespace ShipGame
         // Update is called once per frame
             void OnCollisionEnter(Collision coll)
             {
-                if (Move1 > 0)
+                if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Cannon Ball")
+                {
+                    Destroy(this.gameObject);
+                }
+            if (Move1 > 0)
                 {
                     if (coll.gameObject.tag == "Land2")
                     {

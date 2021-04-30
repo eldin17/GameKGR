@@ -16,12 +16,7 @@ namespace ShipGame
         public EnemyCanon shooting4;
         public EnemyFollow follow4;
 
-        public EnemyCanon shooting1old;
-        public EnemyFollow follow1old;
-        public EnemyCanon shooting2old;
-        public EnemyFollow follow2old;
-        public EnemyCanon shooting3old;
-        public EnemyFollow follow3old;
+        
 
         // Start is called before the first frame update
         void Start()
@@ -42,14 +37,8 @@ namespace ShipGame
         {
             if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Cannon Ball")
             {
-                follow1old.enabled = false;
-                shooting1old.Stop = true;
-
-                follow2old.enabled = false;
-                shooting2old.Stop = true;
-
-                follow3old.enabled = false;
-                shooting3old.Stop = true;
+                Destroy(this.gameObject);
+                
 
                 follow1.enabled = true;
                 shooting1.Stop = false;
@@ -63,7 +52,6 @@ namespace ShipGame
                 follow4.enabled = true;
                 shooting4.Stop = false;
 
-                Destroy(this.gameObject);
             }
         }
     }
