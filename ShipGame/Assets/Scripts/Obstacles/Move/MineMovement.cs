@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 namespace ShipGame
 {
     public class MineMovement : MonoBehaviour
     {
+        public AudioSource sound;
         public float Move1;
         // Start is called before the first frame update
         void Start()
@@ -18,6 +20,7 @@ namespace ShipGame
             {
                 if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Cannon Ball")
                 {
+                    sound.Play();
                     Destroy(this.gameObject);
                 }
             if (Move1 > 0)

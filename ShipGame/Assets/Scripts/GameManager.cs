@@ -9,12 +9,12 @@ namespace ShipGame
         public float restartDelay = 1f;
         public void EndGame()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
         void Restart()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
     }

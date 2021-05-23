@@ -5,8 +5,8 @@ using UnityEngine;
 namespace ShipGame.Player 
 {   
 	public class PlayerMovement : MonoBehaviour
-	{  
-	    private void Update()
+	{        
+        private void Update()
 	    {
 			//this.transform.Rotate(0, Input.GetAxis("Horizontal") * 150 * Time.deltaTime, 0);
 			this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * 30 * Time.deltaTime;

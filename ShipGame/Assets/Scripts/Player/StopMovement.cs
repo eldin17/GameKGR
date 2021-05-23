@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace ShipGame.Player 
 {   
@@ -13,11 +14,7 @@ namespace ShipGame.Player
             {
                 movement.enabled = false;
                 FindObjectOfType<GameManager>().EndGame();
-            }
-            if (collisionInfo.collider.tag == "Bonus")
-            {
-                //Dodatni bodovi
-            }
+            }            
         }
     }
 }

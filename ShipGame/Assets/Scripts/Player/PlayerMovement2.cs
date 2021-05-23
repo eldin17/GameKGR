@@ -8,10 +8,10 @@ namespace ShipGame
     {
         
         public float speed = 3.0F;
-    public float rotateSpeed = 3.0F;
+        public float rotateSpeed = 3.0F;
         Vector3 temp;
         private void Start()
-        {
+        {         
             temp = this.transform.position;
         }
         

@@ -15,6 +15,8 @@ TagManager:
   - Mines
   - EnemyCannon
   - Health
+  - EnemyShip
+  - Music
   layers:
   - Default
   - TransparentFX

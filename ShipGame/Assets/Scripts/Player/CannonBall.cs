@@ -8,7 +8,7 @@ namespace ShipGame
     {
         void OnCollisionEnter(Collision coll)
         {
-            if (coll.gameObject.tag == "World"|| coll.gameObject.tag == "Enemy" || coll.gameObject.tag == "Enemy")
+            if (coll.gameObject.tag == "World"|| coll.gameObject.tag == "Enemy" || coll.gameObject.tag == "EnemyShip" || coll.gameObject.tag == "Mines" || coll.gameObject.tag == "Health")
             {
                 Destruction();
             }
