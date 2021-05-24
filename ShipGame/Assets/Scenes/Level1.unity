@@ -831,6 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: 0
 --- !u!114 &98900059
 MonoBehaviour:
@@ -2117,6 +2118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: 2000
 --- !u!65 &293998414
 BoxCollider:
@@ -3322,6 +3324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tower (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
 --- !u!4 &571273354 stripped
@@ -3828,6 +3834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: 0
 --- !u!114 &652512538
 MonoBehaviour:
@@ -4065,6 +4072,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
       propertyPath: m_Name
       value: tower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
@@ -4483,6 +4494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tower (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
 --- !u!4 &828748106 stripped
@@ -4546,6 +4561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: -3000
 --- !u!65 &836859755
 BoxCollider:
@@ -5346,6 +5362,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
       propertyPath: m_Name
       value: tower (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
@@ -6394,6 +6414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: 2000
 --- !u!1 &1169584873 stripped
 GameObject:
@@ -6698,6 +6719,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
       propertyPath: m_Name
       value: tower (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdeb72136b84a5e41bd2877e5e885669, type: 3}
@@ -7218,6 +7243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: 3000
 --- !u!65 &1252640462
 BoxCollider:
@@ -7270,6 +7296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: -2000
 --- !u!65 &1266383586
 BoxCollider:
@@ -8591,6 +8618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: 3000
 --- !u!65 &1458494010
 BoxCollider:
@@ -9178,6 +9206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: 0
 --- !u!114 &1586577135
 MonoBehaviour:
@@ -10366,6 +10395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ba485d9879a9b4081c6c8293a87c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 799877608}
   Move1: -2000
 --- !u!65 &1924715748
 BoxCollider:
